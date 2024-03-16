@@ -15,3 +15,7 @@ And many more!
 VORTEX WEBHOOK IS USING THE GNU GENERAL PUBLIC LICENSE!!
 
 GPL-3.0 LICENSE!!
+
+### CURRENT BRANCH
+
+The current branch at this moment is the testing branch.
