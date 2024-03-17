@@ -1,0 +1,20 @@
+{
+  "name": "vortex_webhook",
+  "productName": "vortex webhook",
+  "version": "1.0.0",
+  "description": "A easy way to use discord webhooks with a GUI.",
+  "main": "Electron/Index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeryChubbyCats/vortex_webhook.git"
+  },
+  "author": "TheMuslimPerson / VeryChubbyCats / Lawen",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/VeryChubbyCats/vortex_webhook/issues"
+  },
+  "homepage": "https://github.com/VeryChubbyCats/vortex_webhook#readme"
+}

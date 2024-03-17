@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Oswald&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    color-scheme: dark;
+}
+
+body {
+    background: #215ead;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    color: #FFFFFF;
+    background: #2770cf;
+    margin: 1rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vh;
+    border-radius: 1rem;
+    gap: 1%;
+}
+
+.Oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;  
+}
+
+.Courier {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal
+}
+
+.No-select {
+    user-select: none;
+}
+
+.Button {
+    background: #1ba822;
+    border: 0 solid transparent;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 5rem;
+    height: 2rem;
+
+    transition: 0.5s ease;
+}
+
+.HEADER-TEXT {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    transition: 0.5s ease;
+}
+
+.BODY-TEXT {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    transition: 0.5s ease;
+}
+
+.HEADER-TEXT:hover, .BODY-TEXT:hover {
+    text-shadow: #FFFFFF 1px 0 10px;
+}
+
+.HEADER-BUTTON {
+    background: #2d81ed;
+    
+    transition: 0.5s ease;
+}
+
+.Widget {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.HEADER-BUTTON:hover {
+    box-shadow: 0 0 1rem 0 #FFFFFF;
+    font-size: 1rem;
+    width: 5.5rem;
+    height: 2.5;
+}
+
+.BODY-BUTTON {
+    background: #1ba822;
+
+    width: 15rem;
+    height: 2.5rem;
+    margin: 1rem;
+
+    transition: 0.5s ease;
+}
+
+.BODY-BUTTON:hover {
+    box-shadow: 0 0 1rem 0 #FFFFFF;
+    font-size: 1rem;
+    width: 18rem;
+    height: 2.8rem;
+}
+
+.Container {
+    background: #2770cf;
+    border: 0 solid transparent;
+    border-radius: 1rem;
+    width: 100vh;
+    height: 80vh;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.InputBox {
+    background: #2b2b2b;
+    border: 0 solid transparent;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.BODY-INPUT {
+    width: 35rem;
+    height: 2.5rem;
+
+    transition: 0.5s ease;
+}
+
+.BODY-INPUT:hover {
+    box-shadow: 0 0 1rem 0 #FFFFFF;
+}
+
+.TextBox {
+    background: #2b2b2b;
+    border: 0 solid transparent;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    color: #FFFFFF;
+    resize: none;
+}
+
+.BODY-TEXTBOX {
+    width: 35rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+
+    transition: 0.5s ease;
+}
+
+.BODY-TEXTBOX:hover {
+    box-shadow: 0 0 1rem 0 #FFFFFF;
+}
